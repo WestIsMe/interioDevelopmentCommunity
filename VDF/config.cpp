@@ -5,6 +5,7 @@
 #define TSideUnknown		4
 #define TEnemy		5
 #define TFriendly		6
+	};
 #define TLogic		7
 
 class CfgPatches {
@@ -13,13 +14,12 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {};
-	};
 };
 
 // Faction Config
  class cfgFactionClasses {
     // Faction Calling Name
-	class VINNISH_FACTION
+	class WESTI_VINNISH_FACTION
     {
 		displayName = "Vinnish Defense Force";
 		priority = 1;
@@ -98,9 +98,9 @@ class CfgVehicles {
     class CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US;
 
     // Cars
-	class car_GMTVR : CUP_B_MTVR_USA {
+	class WESTI_car_GMTVR : CUP_B_MTVR_USA {
 		displayName = "MTVR (Forest)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -109,9 +109,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa"};
 	};
 
-	class car_TMTVR : CUP_B_MTVR_USA {
+	class WESTI_car_TMTVR : CUP_B_MTVR_USA {
 		displayName = "MTVR (Desert)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -120,9 +120,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa"};
 	};
 	
-	class car_GMTVRA : CUP_B_MTVR_Ammo_USA {
+	class WESTI_car_GMTVRA : CUP_B_MTVR_Ammo_USA {
 		displayName = "MTVR Ammo (Forest)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -131,9 +131,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_body_co.paa", "\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa"};
 	};
 	
-	class car_TMTVRA : CUP_B_MTVR_Ammo_USA {
+	class WESTI_car_TMTVRA : CUP_B_MTVR_Ammo_USA {
 		displayName = "MTVR Ammo (Desert)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -142,9 +142,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_body_co.paa"};
 	};
 
-	class car_GMTVRR : CUP_B_MTVR_Refuel_USA {
+	class WESTI_car_GMTVRR : CUP_B_MTVR_Refuel_USA {
 		displayName = "MTVR Refuel (Forest)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -153,9 +153,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa"};
 	};
 	
-	class car_TMTVRR : CUP_B_MTVR_Refuel_USA {
+	class WESTI_car_TMTVRR : CUP_B_MTVR_Refuel_USA {
 		displayName = "MTVR Refuel (Desert)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -164,9 +164,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_fuel_co.paa"};
 	};
 
-	class car_GMTVRRP : CUP_B_MTVR_Repair_USA {
+	class WESTI_car_GMTVRRP : CUP_B_MTVR_Repair_USA {
 		displayName = "MTVR Repair (Forest)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -175,9 +175,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\green_mtvr_repair_co.paa"};
 	};
 
-	class car_TMTVRRP : CUP_B_MTVR_Repair_USA {
+	class WESTI_car_TMTVRRP : CUP_B_MTVR_Repair_USA {
 		displayName = "MTVR Repair (Desert)";
-		faction = "VINNISH_FACTION";
+		faction = "WESTI_VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -186,9 +186,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_repair_co.paa"};
 	};
 
- 	class car_GHMMWVM2 : CUP_B_HMMWV_M2_USA {
+ 	class WESTI_car_GHMMWVM2 : CUP_B_HMMWV_M2_USA {
  		displayName = "HMMWV M2 (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -197,9 +197,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa", "\data\cars\HMMWV\green_HMMWV_2.paa"};
  	};
 
- 	class car_THMMWVM2 : CUP_B_HMMWV_M2_USA {
+ 	class WESTI_car_THMMWVM2 : CUP_B_HMMWV_M2_USA {
  		displayName = "HMMWV M2 (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -208,9 +208,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_2.paa"};
  	};
 
- 	class car_GHMMWVMK19 : CUP_B_HMMWV_MK19_USA {
+ 	class WESTI_car_GHMMWVMK19 : CUP_B_HMMWV_MK19_USA {
  		displayName = "HMMWV Mk19 (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -219,9 +219,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa", "\data\cars\HMMWV\green_HMMWV_2.paa"};
  	};
 
- 	class car_THMMWVMK19 : CUP_B_HMMWV_MK19_USA {
+ 	class WESTI_car_THMMWVMK19 : CUP_B_HMMWV_MK19_USA {
  		displayName = "HMMWV Mk19 (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -230,9 +230,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_2.paa"};
  	};
 
- 	class car_GHMMWVAM : CUP_B_HMMWV_Ambulance_USA {
+ 	class WESTI_car_GHMMWVAM : CUP_B_HMMWV_Ambulance_USA {
  		displayName = "HMMWV Ambulance (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -241,9 +241,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_3.paa"};
  	};
 
-  	class car_THMMWVAM : CUP_B_HMMWV_Ambulance_USA {
+  	class WESTI_car_THMMWVAM : CUP_B_HMMWV_Ambulance_USA {
  		displayName = "HMMWV Ambulance (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -252,9 +252,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_3.paa"};
  	};
 
- 	class car_GHMMWVUA : CUP_B_HMMWV_Unarmed_USA {
+ 	class WESTI_car_GHMMWVUA : CUP_B_HMMWV_Unarmed_USA {
  		displayName = "HMMWV Unarmed (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -263,9 +263,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa"};
  	};
 
- 	class car_THMMWVUA : CUP_B_HMMWV_Unarmed_USA {
+ 	class WESTI_car_THMMWVUA : CUP_B_HMMWV_Unarmed_USA {
  		displayName = "HMMWV Unarmed (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -274,9 +274,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa"};
  	};
 
- 	class car_THMMWVTP : CUP_B_HMMWV_Transport_USA {
+ 	class WESTI_car_THMMWVTP : CUP_B_HMMWV_Transport_USA {
  		displayName = "HMMWV Transport (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -287,7 +287,7 @@ class CfgVehicles {
 // APC'S
  	class tank_M163G : CUP_B_M163_USA {
  		displayName = "M163A1 VADS (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleClass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -298,7 +298,7 @@ class CfgVehicles {
 
  	class tank_M163T : CUP_B_M163_USA {
  		displayName = "M163A1 VADS (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -309,7 +309,7 @@ class CfgVehicles {
 
  	class tank_M113G : CUP_B_M113_USA {
  		displayName = "M113 (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -320,7 +320,7 @@ class CfgVehicles {
 
  	class tank_M113T : CUP_B_M113_USA {
  		displayName = "M113 (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -331,7 +331,7 @@ class CfgVehicles {
 
  	class tank_M113MG : CUP_B_M113_Med_USA {
  		displayName = "M113 Ambulance (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -342,7 +342,7 @@ class CfgVehicles {
 
  	class tank_M113MT : CUP_B_M113_Med_USA {
  		displayName = "M113 Ambulance (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -354,7 +354,7 @@ class CfgVehicles {
 
  	class tank_MORAG : I_APC_tracked_03_cannon_F {
  		displayName = "FV-720 Mora (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -365,7 +365,7 @@ class CfgVehicles {
 
  	class tank_MORAT : I_APC_tracked_03_cannon_F {
  		displayName = "FV-720 Mora (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -377,7 +377,7 @@ class CfgVehicles {
 
  	class tank_KUMAG : I_MBT_03_cannon_F {
  		displayName = "MBT-52 Kuma (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -388,7 +388,7 @@ class CfgVehicles {
 
  	class tank_KUMAT : I_MBT_03_cannon_F {
  		displayName = "MBT-52 Kuma (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -399,7 +399,7 @@ class CfgVehicles {
 
  	class tank_M60A3G : CUP_B_M60A3_USMC {
  		displayName = "M60A3 (Forest)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -410,7 +410,7 @@ class CfgVehicles {
 
  	class tank_M60A3T : CUP_B_M60A3_USMC {
  		displayName = "M60A3 (Desert)";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -422,7 +422,7 @@ class CfgVehicles {
 
  	class heli_MI24DF : CUP_I_Mi24_D_Dynamic_ION {
  		displayName = "Forsvaret MH-24D";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -433,7 +433,7 @@ class CfgVehicles {
 
  	class heli_MI24DS : CUP_I_Mi24_D_Dynamic_ION {
  		displayName = "Søværnet MH-24D";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -444,7 +444,7 @@ class CfgVehicles {
 //planes
  	class plane_F16CF : FIR_F16C {
  		displayName = "Forsvaret F16 Fighting Falcon";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -455,7 +455,7 @@ class CfgVehicles {
 
  	class plane_F16CS : FIR_F16C {
  		displayName = "Søværnet F16 Fighting Falcon";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -466,7 +466,7 @@ class CfgVehicles {
 
  	class plane_C130F : CUP_I_C130J_AAF {
  		displayName = "Forsvaret C-130J";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -477,7 +477,7 @@ class CfgVehicles {
 
  	class plane_C130S : CUP_I_C130J_AAF {
  		displayName = "Søværnet C-130J";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -488,7 +488,7 @@ class CfgVehicles {
 
  	class heli_UH60S : CUP_B_UH60M_US {
  		displayName = "Søværnet UH-60 Armed";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -499,7 +499,7 @@ class CfgVehicles {
 
  	class heli_UH60F : CUP_B_UH60M_US {
  		displayName = "Forsvaret UH-60 Armed";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -510,7 +510,7 @@ class CfgVehicles {
 
  	class heli_UH60M : CUP_B_UH60M_US {
  		displayName = "Vinnish UH-60 Medevac";
- 		faction = "VINNISH_FACTION";
+ 		faction = "WESTI_VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
