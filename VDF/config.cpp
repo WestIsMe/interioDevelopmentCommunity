@@ -5,7 +5,6 @@
 #define TSideUnknown		4
 #define TEnemy		5
 #define TFriendly		6
-	};
 #define TLogic		7
 
 class CfgPatches {
@@ -577,7 +576,6 @@ class CfgVehicles {
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
 	{
@@ -606,7 +604,6 @@ class CfgVehicles {
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
 	{
@@ -635,7 +632,6 @@ class CfgVehicles {
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
 	{
@@ -664,7 +660,6 @@ class CfgVehicles {
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
 	{
