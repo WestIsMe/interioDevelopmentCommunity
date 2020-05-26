@@ -817,7 +817,6 @@ class CfgWeapons {
 			mass = 40;
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_gloves: CUP_U_B_BDUv2_gloves_DCU_US
 	{
@@ -864,7 +863,6 @@ class CfgWeapons {
 			mass = 40;
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_gloves: CUP_U_B_BDUv2_roll2_DCU_US
 	{
