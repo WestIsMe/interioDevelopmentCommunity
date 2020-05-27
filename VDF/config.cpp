@@ -547,7 +547,6 @@ class CfgVehicles {
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 	};
-};
 
 	class WESTI_clothing_UUBD_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
 	{
