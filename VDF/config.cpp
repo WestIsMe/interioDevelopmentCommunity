@@ -1011,7 +1011,7 @@ class CfgWeapons {
 	};
 };
 
-
+};
 
 
 
