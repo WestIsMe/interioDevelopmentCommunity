@@ -16,7 +16,7 @@ class CfgPatches {
 };
 
 // Faction Config
- class cfgFactionClasses {
+class cfgFactionClasses {
     // Faction Calling Name
 	class WESTI_VINNISH_FACTION
     {
