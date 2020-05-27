@@ -774,11 +774,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubd_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -793,13 +788,7 @@ class CfgWeapons {
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU - Forest";
 		picture = "";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]={"camo1","camo2","camo3","camo4"};
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubf_co.paa"
-		};
-			
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";		
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -815,11 +804,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU w/ Gloves - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubd_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -834,12 +818,7 @@ class CfgWeapons {
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU w/Gloves - Forest";
 		picture = "";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubf_co.paa"
-		};
-			
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -855,11 +834,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU Rolled High - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubd_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -874,12 +848,7 @@ class CfgWeapons {
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High - Forest";
 		picture = "";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubf_co.paa"
-		};
-			
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -895,11 +864,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU Rolled High w/ Gloves - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubd_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -914,12 +878,7 @@ class CfgWeapons {
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High w/ Gloves - Forest";
 		picture = "";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubf_co.paa"
-		};
-			
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -935,11 +894,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU Rolled - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubd_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -954,12 +908,7 @@ class CfgWeapons {
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled - Forest";
 		picture = "";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubf_co.paa"
-		};
-			
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -975,11 +924,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU Rolled w/ Gloves - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubd_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -995,11 +939,6 @@ class CfgWeapons {
 		displayName = "Vinnish BDU Rolled w/ Gloves - Forest";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\VDF\data\clothing\uub\uubf_co.paa"
-		};
-			
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1008,6 +947,8 @@ class CfgWeapons {
 			mass = 40;
 		};
 	};
+};
+
 };
 
 
