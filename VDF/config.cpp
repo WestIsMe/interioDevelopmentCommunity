@@ -778,9 +778,6 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]={"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
 			"\VDF\data\clothing\uub\uubd_co.paa"
 		};
 			
@@ -802,9 +799,6 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]={"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 			
@@ -825,9 +819,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
 			"\VDF\data\clothing\uub\uubd_co.paa"
 		};
 			
@@ -848,9 +839,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 			
@@ -871,9 +859,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
 			"\VDF\data\clothing\uub\uubd_co.paa"
 		};
 			
@@ -894,9 +879,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 			
@@ -917,9 +899,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
 			"\VDF\data\clothing\uub\uubd_co.paa"
 		};
 			
@@ -940,9 +919,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 			
@@ -963,9 +939,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
 			"\VDF\data\clothing\uub\uubd_co.paa"
 		};
 			
@@ -986,9 +959,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 			
@@ -1009,9 +979,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
-			"\VDF\data\clothing\uub\uubd_co.paa",
 			"\VDF\data\clothing\uub\uubd_co.paa"
 		};
 			
@@ -1032,9 +999,6 @@ class CfgWeapons {
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
-			"\VDF\data\clothing\uub\uubf_co.paa",
 			"\VDF\data\clothing\uub\uubf_co.paa"
 		};
 			
