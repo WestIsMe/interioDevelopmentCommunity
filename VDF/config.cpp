@@ -88,7 +88,6 @@ class CfgVehicles {
     class CUP_I_C130J_AAF;
 //Clothing
     class CUP_U_B_BDUv2_DCU_US;
-    //class clothing_UUBD_base;
     class CUP_B_USArmy_Soldier_BDUv2_DCU_US;
     class CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US;
     class CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US;
@@ -775,10 +774,10 @@ class CfgWeapons {
 		displayName = "Vinnish BDU - Desert";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		/*hiddenSelectionsTextures[]=
+		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa"
-		};*/
+		};
 			
 		class ItemInfo: UniformItem
 		{
