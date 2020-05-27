@@ -830,7 +830,7 @@ class CfgWeapons {
 		};
 	};
 
-	class WESTI_clothing_UUBF_gloves: CUP_U_B_BDUv2_gloves_DCU_US
+	class WESTI_clothing_UUBF_roll2_gloves: CUP_U_B_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU w/Gloves - Forest";
@@ -850,7 +850,7 @@ class CfgWeapons {
 		};
 	};
 
-	class WESTI_clothing_UUBD_gloves: CUP_U_B_BDUv2_roll2_DCU_US
+	class WESTI_clothing_UUBD_roll2_gloves: CUP_U_B_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High - Desert";
