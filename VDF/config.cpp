@@ -8,7 +8,7 @@
 #define TLogic		7
 
 class CfgPatches {
-	class WESTI_VinnishDefenceForce {
+	class VinnishDefenceForce {
 	    author = "WestDevs and Swat";
 		units[] = {};
 		weapons[] = {};
@@ -18,7 +18,7 @@ class CfgPatches {
 // Faction Config
 class cfgFactionClasses {
     // Faction Calling Name
-	class WESTI_VINNISH_FACTION
+	class VINNISH_FACTION
     {
 		displayName = "Vinnish Defense Force";
 		priority = 1;
@@ -88,7 +88,7 @@ class CfgVehicles {
     class CUP_I_C130J_AAF;
 //Clothing
     class CUP_U_B_BDUv2_DCU_US;
-    //class WESTI_clothing_UUBD_base;
+    //class clothing_UUBD_base;
     class CUP_B_USArmy_Soldier_BDUv2_DCU_US;
     class CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US;
     class CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US;
@@ -97,9 +97,9 @@ class CfgVehicles {
     class CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US;
 
     // Cars
-	class WESTI_car_GMTVR : CUP_B_MTVR_USA {
+	class car_GMTVR : CUP_B_MTVR_USA {
 		displayName = "MTVR (Forest)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -108,9 +108,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa"};
 	};
 
-	class WESTI_car_TMTVR : CUP_B_MTVR_USA {
+	class car_TMTVR : CUP_B_MTVR_USA {
 		displayName = "MTVR (Desert)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -119,9 +119,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa"};
 	};
 	
-	class WESTI_car_GMTVRA : CUP_B_MTVR_Ammo_USA {
+	class car_GMTVRA : CUP_B_MTVR_Ammo_USA {
 		displayName = "MTVR Ammo (Forest)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -130,9 +130,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_body_co.paa", "\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa"};
 	};
 	
-	class WESTI_car_TMTVRA : CUP_B_MTVR_Ammo_USA {
+	class car_TMTVRA : CUP_B_MTVR_Ammo_USA {
 		displayName = "MTVR Ammo (Desert)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -141,9 +141,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_body_co.paa"};
 	};
 
-	class WESTI_car_GMTVRR : CUP_B_MTVR_Refuel_USA {
+	class car_GMTVRR : CUP_B_MTVR_Refuel_USA {
 		displayName = "MTVR Refuel (Forest)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -152,9 +152,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa"};
 	};
 	
-	class WESTI_car_TMTVRR : CUP_B_MTVR_Refuel_USA {
+	class car_TMTVRR : CUP_B_MTVR_Refuel_USA {
 		displayName = "MTVR Refuel (Desert)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -163,9 +163,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_fuel_co.paa"};
 	};
 
-	class WESTI_car_GMTVRRP : CUP_B_MTVR_Repair_USA {
+	class car_GMTVRRP : CUP_B_MTVR_Repair_USA {
 		displayName = "MTVR Repair (Forest)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -174,9 +174,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\green_mtvr_fuel_co.paa", "\VDF\data\cars\MTVR\green_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\green_mtvr_repair_co.paa"};
 	};
 
-	class WESTI_car_TMTVRRP : CUP_B_MTVR_Repair_USA {
+	class car_TMTVRRP : CUP_B_MTVR_Repair_USA {
 		displayName = "MTVR Repair (Desert)";
-		faction = "WESTI_VINNISH_FACTION";
+		faction = "VINNISH_FACTION";
 		vehicleclass = "VDF_Car";
 		side = TWest;
 		crew = "B_Soldier_F";
@@ -185,9 +185,9 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\VDF\data\cars\MTVR\tan_mtvr_body_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_tarp_co.paa", "\VDF\data\cars\MTVR\tan_mtvr_repair_co.paa"};
 	};
 
- 	class WESTI_car_GHMMWVM2 : CUP_B_HMMWV_M2_USA {
+ 	class car_GHMMWVM2 : CUP_B_HMMWV_M2_USA {
  		displayName = "HMMWV M2 (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -196,9 +196,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa", "\data\cars\HMMWV\green_HMMWV_2.paa"};
  	};
 
- 	class WESTI_car_THMMWVM2 : CUP_B_HMMWV_M2_USA {
+ 	class car_THMMWVM2 : CUP_B_HMMWV_M2_USA {
  		displayName = "HMMWV M2 (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -207,9 +207,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_2.paa"};
  	};
 
- 	class WESTI_car_GHMMWVMK19 : CUP_B_HMMWV_MK19_USA {
+ 	class car_GHMMWVMK19 : CUP_B_HMMWV_MK19_USA {
  		displayName = "HMMWV Mk19 (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -218,9 +218,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa", "\data\cars\HMMWV\green_HMMWV_2.paa"};
  	};
 
- 	class WESTI_car_THMMWVMK19 : CUP_B_HMMWV_MK19_USA {
+ 	class car_THMMWVMK19 : CUP_B_HMMWV_MK19_USA {
  		displayName = "HMMWV Mk19 (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -229,9 +229,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_2.paa"};
  	};
 
- 	class WESTI_car_GHMMWVAM : CUP_B_HMMWV_Ambulance_USA {
+ 	class car_GHMMWVAM : CUP_B_HMMWV_Ambulance_USA {
  		displayName = "HMMWV Ambulance (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -240,9 +240,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_3.paa"};
  	};
 
-  	class WESTI_car_THMMWVAM : CUP_B_HMMWV_Ambulance_USA {
+  	class car_THMMWVAM : CUP_B_HMMWV_Ambulance_USA {
  		displayName = "HMMWV Ambulance (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -251,9 +251,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa", "\data\cars\HMMWV\tan_HMMWV_3.paa"};
  	};
 
- 	class WESTI_car_GHMMWVUA : CUP_B_HMMWV_Unarmed_USA {
+ 	class car_GHMMWVUA : CUP_B_HMMWV_Unarmed_USA {
  		displayName = "HMMWV Unarmed (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -262,9 +262,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\green_HMMWV.paa"};
  	};
 
- 	class WESTI_car_THMMWVUA : CUP_B_HMMWV_Unarmed_USA {
+ 	class car_THMMWVUA : CUP_B_HMMWV_Unarmed_USA {
  		displayName = "HMMWV Unarmed (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -273,9 +273,9 @@ class CfgVehicles {
  		hiddenSelectionsTextures[] = {"\VDF\data\cars\HMMWV\tan_HMMWV.paa"};
  	};
 
- 	class WESTI_car_THMMWVTP : CUP_B_HMMWV_Transport_USA {
+ 	class car_THMMWVTP : CUP_B_HMMWV_Transport_USA {
  		displayName = "HMMWV Transport (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Car";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -286,7 +286,7 @@ class CfgVehicles {
 // APC'S
  	class tank_M163G : CUP_B_M163_USA {
  		displayName = "M163A1 VADS (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleClass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -297,7 +297,7 @@ class CfgVehicles {
 
  	class tank_M163T : CUP_B_M163_USA {
  		displayName = "M163A1 VADS (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -308,7 +308,7 @@ class CfgVehicles {
 
  	class tank_M113G : CUP_B_M113_USA {
  		displayName = "M113 (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -319,7 +319,7 @@ class CfgVehicles {
 
  	class tank_M113T : CUP_B_M113_USA {
  		displayName = "M113 (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -330,7 +330,7 @@ class CfgVehicles {
 
  	class tank_M113MG : CUP_B_M113_Med_USA {
  		displayName = "M113 Ambulance (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -341,7 +341,7 @@ class CfgVehicles {
 
  	class tank_M113MT : CUP_B_M113_Med_USA {
  		displayName = "M113 Ambulance (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -353,7 +353,7 @@ class CfgVehicles {
 
  	class tank_MORAG : I_APC_tracked_03_cannon_F {
  		displayName = "FV-720 Mora (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -364,7 +364,7 @@ class CfgVehicles {
 
  	class tank_MORAT : I_APC_tracked_03_cannon_F {
  		displayName = "FV-720 Mora (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_APC";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -376,7 +376,7 @@ class CfgVehicles {
 
  	class tank_KUMAG : I_MBT_03_cannon_F {
  		displayName = "MBT-52 Kuma (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -387,7 +387,7 @@ class CfgVehicles {
 
  	class tank_KUMAT : I_MBT_03_cannon_F {
  		displayName = "MBT-52 Kuma (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -398,7 +398,7 @@ class CfgVehicles {
 
  	class tank_M60A3G : CUP_B_M60A3_USMC {
  		displayName = "M60A3 (Forest)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -409,7 +409,7 @@ class CfgVehicles {
 
  	class tank_M60A3T : CUP_B_M60A3_USMC {
  		displayName = "M60A3 (Desert)";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Tank";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -421,7 +421,7 @@ class CfgVehicles {
 
  	class heli_MI24DF : CUP_I_Mi24_D_Dynamic_ION {
  		displayName = "Forsvaret MH-24D";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -432,7 +432,7 @@ class CfgVehicles {
 
  	class heli_MI24DS : CUP_I_Mi24_D_Dynamic_ION {
  		displayName = "Søværnet MH-24D";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -443,7 +443,7 @@ class CfgVehicles {
 //planes
  	class plane_F16CF : FIR_F16C {
  		displayName = "Forsvaret F16 Fighting Falcon";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -454,7 +454,7 @@ class CfgVehicles {
 
  	class plane_F16CS : FIR_F16C {
  		displayName = "Søværnet F16 Fighting Falcon";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -465,7 +465,7 @@ class CfgVehicles {
 
  	class plane_C130F : CUP_I_C130J_AAF {
  		displayName = "Forsvaret C-130J";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -476,7 +476,7 @@ class CfgVehicles {
 
  	class plane_C130S : CUP_I_C130J_AAF {
  		displayName = "Søværnet C-130J";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -487,7 +487,7 @@ class CfgVehicles {
 
  	class heli_UH60S : CUP_B_UH60M_US {
  		displayName = "Søværnet UH-60 Armed";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -498,7 +498,7 @@ class CfgVehicles {
 
  	class heli_UH60F : CUP_B_UH60M_US {
  		displayName = "Forsvaret UH-60 Armed";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -509,7 +509,7 @@ class CfgVehicles {
 
  	class heli_UH60M : CUP_B_UH60M_US {
  		displayName = "Vinnish UH-60 Medevac";
- 		faction = "WESTI_VINNISH_FACTION";
+ 		faction = "VINNISH_FACTION";
  		vehicleclass = "VDF_Heli";
  		side = TWest;
  		crew = "B_Soldier_F";
@@ -520,11 +520,11 @@ class CfgVehicles {
 
 //clothingInVehicles
 
-    class WESTI_clothing_UUBD_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
+    class clothing_UUBD_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU - Desert";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -534,11 +534,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBF_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
+	class clothing_UUBF_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU - Forest";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -548,11 +548,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBD_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
+	class clothing_UUBD_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Gloves - Desert";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -562,11 +562,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBF_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
+	class clothing_UUBF_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Gloves - Forest";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -576,11 +576,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBD_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
+	class clothing_UUBD_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2 - Desert";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -590,11 +590,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBF_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
+	class clothing_UUBF_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2 - Forest";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -604,11 +604,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBD_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
+	class clothing_UUBD_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2g - Desert";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -618,11 +618,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBF_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
+	class clothing_UUBF_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2g - Forest";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -632,11 +632,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBD_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
+	class clothing_UUBD_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll - Desert";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -646,11 +646,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBF_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
+	class clothing_UUBF_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll - Forest";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -660,11 +660,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBD_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
+	class clothing_UUBD_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Rollg - Desert";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -674,11 +674,11 @@ class CfgVehicles {
 		};
 	};
 
-	class WESTI_clothing_UUBF_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
+	class clothing_UUBF_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Rollg - Forest";
-		uniformClass = "WESTI_clothing_UUBD";
+		uniformClass = "clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -705,63 +705,63 @@ class CfgWeapons {
 	class CUP_U_B_BDUv2_roll_DCU_US;
 	class CUP_U_B_BDUv2_roll_gloves_DCU_US;
 
- 	class WESTI_clothing_M92D : CUP_H_Ger_M92_Black {
+ 	class clothing_M92D : CUP_H_Ger_M92_Black {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Desert M92 Helmet";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\m92\m92d_co.paa"};    
     };
 
-    class WESTI_clothing_M92F : CUP_H_Ger_M92_Black {
+    class clothing_M92F : CUP_H_Ger_M92_Black {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Forest M92 Helmet";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\m92\m92f_co.paa"};
     };
 
-    class WESTI_clothing_BHD : H_Booniehat_khk {
+    class clothing_BHD : H_Booniehat_khk {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Desert Boonie Hat";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\bh\bhd_co.paa"};
     };
 
-    class WESTI_clothing_BHF : H_Booniehat_khk {
+    class clothing_BHF : H_Booniehat_khk {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Forest Boonie Hat";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\bh\bhf_co.paa"};
     };
 
-    class WESTI_clothing_HP : H_PilotHelmetHeli_B {
+    class clothing_HP : H_PilotHelmetHeli_B {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Helicopter Pilot Helmet";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\hp\hp_co.paa"};
     };
 
-    class WESTI_clothing_PCD : CUP_H_US_patrol_cap_DCU {
+    class clothing_PCD : CUP_H_US_patrol_cap_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Patrol Cap Desert";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\pc\pcd_co.paa"};
     };
 
-    class WESTI_clothing_PCF : CUP_H_US_patrol_cap_DCU {
+    class clothing_PCF : CUP_H_US_patrol_cap_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Patrol Cap Forest";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\pc\pcf_co.paa"};
     };
 
-    class WESTI_clothing_PHF : CUP_H_PASGTv2_DCU {
+    class clothing_PHF : CUP_H_PASGTv2_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish PASGT Helmet Forest";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\ph\phf_co.paa"};
     };
 
-    class WESTI_clothing_PHD : CUP_H_PASGTv2_DCU {
+    class clothing_PHD : CUP_H_PASGTv2_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish PASGT Helmet Desert";
@@ -769,7 +769,7 @@ class CfgWeapons {
     };
 // Uniforms
 
-    class WESTI_clothing_UUBD: CUP_U_B_BDUv2_DCU_US
+    class clothing_UUBD: CUP_U_B_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU - Desert";
@@ -783,13 +783,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBD_base";
+			uniformClass = "clothing_UUBD_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBF: CUP_U_B_BDUv2_DCU_US
+	class clothing_UUBF: CUP_U_B_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU - Forest";
@@ -804,13 +804,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBF_base";
+			uniformClass = "clothing_UUBF_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBD_gloves: CUP_U_B_BDUv2_gloves_DCU_US
+	class clothing_UUBD_gloves: CUP_U_B_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU w/ Gloves - Desert";
@@ -824,13 +824,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBD_gloves_base";
+			uniformClass = "clothing_UUBD_gloves_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBF_roll2_gloves: CUP_U_B_BDUv2_gloves_DCU_US
+	class clothing_UUBF_roll2_gloves: CUP_U_B_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU w/Gloves - Forest";
@@ -844,13 +844,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBF_gloves_base";
+			uniformClass = "clothing_UUBF_gloves_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBD_roll2_gloves: CUP_U_B_BDUv2_roll2_DCU_US
+	class clothing_UUBD_roll2_gloves: CUP_U_B_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High - Desert";
@@ -864,13 +864,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBD_roll2_base";
+			uniformClass = "clothing_UUBD_roll2_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBF_gloves: CUP_U_B_BDUv2_roll2_DCU_US
+	class clothing_UUBF_gloves: CUP_U_B_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High - Forest";
@@ -884,13 +884,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBF_roll2_base";
+			uniformClass = "clothing_UUBF_roll2_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBD_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
+	class clothing_UUBD_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High w/ Gloves - Desert";
@@ -904,13 +904,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBD_roll2g_base";
+			uniformClass = "clothing_UUBD_roll2g_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBF_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
+	class clothing_UUBF_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High w/ Gloves - Forest";
@@ -924,13 +924,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBF_roll2g_base";
+			uniformClass = "clothing_UUBF_roll2g_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBD_roll: CUP_U_B_BDUv2_roll_DCU_US
+	class clothing_UUBD_roll: CUP_U_B_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled - Desert";
@@ -944,13 +944,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBD_roll_base";
+			uniformClass = "clothing_UUBD_roll_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBF_roll: CUP_U_B_BDUv2_roll_DCU_US
+	class clothing_UUBF_roll: CUP_U_B_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled - Forest";
@@ -964,13 +964,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBF_roll_base";
+			uniformClass = "clothing_UUBF_roll_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBD_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
+	class clothing_UUBD_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled w/ Gloves - Desert";
@@ -984,13 +984,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBD_rollg_base";
+			uniformClass = "clothing_UUBD_rollg_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class WESTI_clothing_UUBF_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
+	class clothing_UUBF_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled w/ Gloves - Forest";
@@ -1004,7 +1004,7 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "WESTI_clothing_UUBF_rollg_base";
+			uniformClass = "clothing_UUBF_rollg_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
