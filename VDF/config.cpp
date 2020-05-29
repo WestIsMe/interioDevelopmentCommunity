@@ -13,6 +13,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {};
+	};
 };
 
 // Faction Config
@@ -947,8 +948,6 @@ class CfgWeapons {
 			mass = 40;
 		};
 	};
-};
-
 };
 
 
