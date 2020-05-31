@@ -95,6 +95,8 @@ class CfgVehicles {
     class CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US;
     class CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US;
     class CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US;
+	class CUP_B_USArmy_Soldier_02;
+	class CUP_B_USArmy_Soldier_01;
 
     // Cars
 	class car_GMTVR : CUP_B_MTVR_USA {
@@ -520,11 +522,11 @@ class CfgVehicles {
 
 //clothingInVehicles
 
-    class clothing_UUBD_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
+    class WESTI_clothing_UUBD_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU - Desert";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -534,11 +536,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBF_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
+	class WESTI_clothing_UUBF_base: CUP_B_USArmy_Soldier_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU - Forest";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -548,11 +550,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBD_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
+	class WESTI_clothing_UUBD_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Gloves - Desert";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_gloves";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -562,11 +564,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBF_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
+	class WESTI_clothing_UUBF_gloves_base: CUP_B_USArmy_Soldier_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Gloves - Forest";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_gloves";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -576,11 +578,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBD_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
+	class WESTI_clothing_UUBD_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2 - Desert";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_roll2";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -590,11 +592,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBF_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
+	class WESTI_clothing_UUBF_roll2_base: CUP_B_USArmy_Soldier_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2 - Forest";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_roll2";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -604,11 +606,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBD_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
+	class WESTI_clothing_UUBD_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2g - Desert";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_roll2g";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -618,11 +620,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBF_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
+	class WESTI_clothing_UUBF_roll2g_base: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll2g - Forest";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_roll2g";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -632,11 +634,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBD_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
+	class WESTI_clothing_UUBD_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll - Desert";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_roll";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -646,11 +648,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBF_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
+	class WESTI_clothing_UUBF_roll_base: CUP_B_USArmy_Soldier_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Roll - Forest";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_roll";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -660,11 +662,11 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBD_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
+	class WESTI_clothing_UUBD_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Rollg - Desert";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBD_rollg";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubd_co.paa",
@@ -674,11 +676,67 @@ class CfgVehicles {
 		};
 	};
 
-	class clothing_UUBF_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
+	class WESTI_clothing_UUBF_rollg_base: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";			
 		displayName = "aVinnish BDU Rollg - Forest";
-		uniformClass = "clothing_UUBD";
+		uniformClass = "WESTI_clothing_UUBF_rollg";
+		hiddenSelectionsTextures[]=
+		{
+			"\VDF\data\clothing\uub\uubf_co.paa",
+			"\VDF\data\clothing\uub\uubf_co.paa",
+			"\VDF\data\clothing\uub\uubf_co.paa",
+			"\VDF\data\clothing\uub\uubf_co.paa"
+		};
+	};
+
+	class WESTI_clothing_UAD_base: CUP_B_USArmy_Soldier_02
+	{
+		author = "WestDevs and Swat";			
+		displayName = "aVinnish UAD - Desert";
+		uniformClass = "WESTI_clothing_UAD";
+		hiddenSelectionsTextures[]=
+		{
+			"\VDF\data\clothing\uub\uubd_co.paa",
+			"\VDF\data\clothing\uub\uubd_co.paa",
+			"\VDF\data\clothing\uub\uubd_co.paa",
+			"\VDF\data\clothing\uub\uubd_co.paa"
+		};
+	};
+
+	class WESTI_clothing_UAF_base: CUP_B_USArmy_Soldier_02
+	{
+		author = "WestDevs and Swat";			
+		displayName = "aVinnish UAF - Forest";
+		uniformClass = "WESTI_clothing_UAF";
+		hiddenSelectionsTextures[]=
+		{
+			"\VDF\data\clothing\uub\uubf_co.paa",
+			"\VDF\data\clothing\uub\uubf_co.paa",
+			"\VDF\data\clothing\uub\uubf_co.paa",
+			"\VDF\data\clothing\uub\uubf_co.paa"
+		};
+	};
+
+	class WESTI_clothing_UAMD_base: CUP_B_USArmy_Soldier_01
+	{
+		author = "WestDevs and Swat";			
+		displayName = "aVinnish UAMD - Desert";
+		uniformClass = "WESTI_clothing_UAMD";
+		hiddenSelectionsTextures[]=
+		{
+			"\VDF\data\clothing\uub\uubd_co.paa",
+			"\VDF\data\clothing\uub\uubd_co.paa",
+			"\VDF\data\clothing\uub\uubd_co.paa",
+			"\VDF\data\clothing\uub\uubd_co.paa"
+		};
+	};
+
+	class WESTI_clothing_UAMF_base: CUP_B_USArmy_Soldier_01
+	{
+		author = "WestDevs and Swat";			
+		displayName = "aVinnish UAMF - Forest";
+		uniformClass = "WESTI_clothing_UAMF";
 		hiddenSelectionsTextures[]=
 		{
 			"\VDF\data\clothing\uub\uubf_co.paa",
@@ -704,64 +762,66 @@ class CfgWeapons {
 	class CUP_U_B_BDUv2_roll2_gloves_DCU_US;
 	class CUP_U_B_BDUv2_roll_DCU_US;
 	class CUP_U_B_BDUv2_roll_gloves_DCU_US;
+	class CUP_U_B_USArmy_TwoKnee;
+	class CUP_U_B_USArmy_Base;
 
- 	class clothing_M92D : CUP_H_Ger_M92_Black {
+ 	class WESTI_clothing_M92D : CUP_H_Ger_M92_Black {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Desert M92 Helmet";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\m92\m92d_co.paa"};    
     };
 
-    class clothing_M92F : CUP_H_Ger_M92_Black {
+    class WESTI_clothing_M92F : CUP_H_Ger_M92_Black {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Forest M92 Helmet";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\m92\m92f_co.paa"};
     };
 
-    class clothing_BHD : H_Booniehat_khk {
+    class WESTI_clothing_BHD : H_Booniehat_khk {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Desert Boonie Hat";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\bh\bhd_co.paa"};
     };
 
-    class clothing_BHF : H_Booniehat_khk {
+    class WESTI_clothing_BHF : H_Booniehat_khk {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Forest Boonie Hat";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\bh\bhf_co.paa"};
     };
 
-    class clothing_HP : H_PilotHelmetHeli_B {
+    class WESTI_clothing_HP : H_PilotHelmetHeli_B {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Helicopter Pilot Helmet";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\hp\hp_co.paa"};
     };
 
-    class clothing_PCD : CUP_H_US_patrol_cap_DCU {
+    class WESTI_clothing_PCD : CUP_H_US_patrol_cap_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Patrol Cap Desert";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\pc\pcd_co.paa"};
     };
 
-    class clothing_PCF : CUP_H_US_patrol_cap_DCU {
+    class WESTI_clothing_PCF : CUP_H_US_patrol_cap_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish Patrol Cap Forest";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\pc\pcf_co.paa"};
     };
 
-    class clothing_PHF : CUP_H_PASGTv2_DCU {
+    class WESTI_clothing_PHF : CUP_H_PASGTv2_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish PASGT Helmet Forest";
         hiddenSelectionsTextures[] = {"\VDF\data\clothing\ph\phf_co.paa"};
     };
 
-    class clothing_PHD : CUP_H_PASGTv2_DCU {
+    class WESTI_clothing_PHD : CUP_H_PASGTv2_DCU {
         author = "WestDevs and Swat";
         picture = "";
         displayName = "Vinnish PASGT Helmet Desert";
@@ -769,7 +829,7 @@ class CfgWeapons {
     };
 // Uniforms
 
-    class clothing_UUBD: CUP_U_B_BDUv2_DCU_US
+    class WESTI_clothing_UUBD: CUP_U_B_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU - Desert";
@@ -778,13 +838,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBD_base";
+			uniformClass = "WESTI_clothing_UUBD_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBF: CUP_U_B_BDUv2_DCU_US
+	class WESTI_clothing_UUBF: CUP_U_B_BDUv2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU - Forest";
@@ -793,13 +853,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBF_base";
+			uniformClass = "WESTI_clothing_UUBF_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBD_gloves: CUP_U_B_BDUv2_gloves_DCU_US
+	class WESTI_clothing_UUBD_gloves: CUP_U_B_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU w/ Gloves - Desert";
@@ -808,13 +868,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBD_gloves_base";
+			uniformClass = "WESTI_clothing_UUBD_gloves_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBF_roll2_gloves: CUP_U_B_BDUv2_gloves_DCU_US
+	class WESTI_clothing_UUBF_roll2_gloves: CUP_U_B_BDUv2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU w/Gloves - Forest";
@@ -823,13 +883,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBF_gloves_base";
+			uniformClass = "WESTI_clothing_UUBF_gloves_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBD_roll2_gloves: CUP_U_B_BDUv2_roll2_DCU_US
+	class WESTI_clothing_UUBD_roll2_gloves: CUP_U_B_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High - Desert";
@@ -838,13 +898,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBD_roll2_base";
+			uniformClass = "WESTI_clothing_UUBD_roll2_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBF_gloves: CUP_U_B_BDUv2_roll2_DCU_US
+	class WESTI_clothing_UUBF_gloves: CUP_U_B_BDUv2_roll2_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High - Forest";
@@ -853,13 +913,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBF_roll2_base";
+			uniformClass = "WESTI_clothing_UUBF_roll2_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBD_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
+	class WESTI_clothing_UUBD_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High w/ Gloves - Desert";
@@ -868,13 +928,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBD_roll2g_base";
+			uniformClass = "WESTI_clothing_UUBD_roll2g_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBF_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
+	class WESTI_clothing_UUBF_roll2g: CUP_U_B_BDUv2_roll2_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled High w/ Gloves - Forest";
@@ -883,13 +943,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBF_roll2g_base";
+			uniformClass = "WESTI_clothing_UUBF_roll2g_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBD_roll: CUP_U_B_BDUv2_roll_DCU_US
+	class WESTI_clothing_UUBD_roll: CUP_U_B_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled - Desert";
@@ -898,13 +958,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBD_roll_base";
+			uniformClass = "WESTI_clothing_UUBD_roll_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBF_roll: CUP_U_B_BDUv2_roll_DCU_US
+	class WESTI_clothing_UUBF_roll: CUP_U_B_BDUv2_roll_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled - Forest";
@@ -913,13 +973,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBF_roll_base";
+			uniformClass = "WESTI_clothing_UUBF_roll_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBD_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
+	class WESTI_clothing_UUBD_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled w/ Gloves - Desert";
@@ -928,13 +988,13 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBD_rollg_base";
+			uniformClass = "WESTI_clothing_UUBD_rollg_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 
-	class clothing_UUBF_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
+	class WESTI_clothing_UUBF_rollg: CUP_U_B_BDUv2_roll_gloves_DCU_US
 	{
 		author = "WestDevs and Swat";
 		displayName = "Vinnish BDU Rolled w/ Gloves - Forest";
@@ -943,32 +1003,69 @@ class CfgWeapons {
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "clothing_UUBF_rollg_base";
+			uniformClass = "WESTI_clothing_UUBF_rollg_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+
+	class WESTI_clothing_UAD: CUP_U_B_USArmy_TwoKnee
+	{
+		author = "WestDevs and Swat";
+		displayName = "Vinnish ACU/Knees - Desert";
+		picture = "";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "WESTI_clothing_UAD_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+
+	class WESTI_clothing_UAF: CUP_U_B_USArmy_TwoKnee
+	{
+		author = "WestDevs and Swat";
+		displayName = "Vinnish ACU/Knees - Forest";
+		picture = "";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "WESTI_clothing_UAF_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+
+	class WESTI_clothing_UAMD: CUP_U_B_USArmy_Base
+	{
+		author = "WestDevs and Swat";
+		displayName = "Vinnish Modern/Knees - Desert";
+		picture = "";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "WESTI_clothing_UAMD_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+
+	class WESTI_clothing_UAMF: CUP_U_B_USArmy_Base
+	{
+		author = "WestDevs and Swat";
+		displayName = "Vinnish Modern/Knees - Forest";
+		picture = "";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "WESTI_clothing_UAMF_base";
 			containerClass = Supply40;
 			mass = 40;
 		};
 	};
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
