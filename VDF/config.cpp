@@ -12,13 +12,11 @@ class CfgPatches {
 	    author = "WestDevs and Swat";
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_Weapons_LoadOrder", "CUP_Vehicles_LoadOrder", "CUP_Core", "CUP_Creatures_Military_USArmy", "CUP_Creatures_Military_USMC"};
 	};
 };
 
-// Faction Config
 class cfgFactionClasses {
-    // Faction Calling Name
 	class VINNISH_FACTION
     {
 		displayName = "Vinnish Defense Force";
@@ -55,8 +53,6 @@ class CfgVehicleClasses {
     };
 };
 
-// Vehicle Config
-// External class references
 class CfgVehicles {
 //Cars
 	class CUP_B_MTVR_USA;
